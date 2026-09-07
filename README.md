@@ -77,7 +77,7 @@ The dataset was prepared using Python and Pandas, explored using MySQL, and visu
 
 - Movies make up the majority of the Netflix catalog in the dataset.
 - Movies account for **69.62%** of the total titles.
-- TV Shows account for **30.38%**.
+- TV Shows account for **30.38%** of the total titles.
 - The dataset contains **8,807 titles** in total.
 - Content additions increased considerably during the later years of the dataset.
 
@@ -87,7 +87,7 @@ The dataset was prepared using Python and Pandas, explored using MySQL, and visu
 
 Python and Pandas were used to prepare the dataset before visualization.
 
-Main steps:
+### Main Steps
 
 - Loaded and inspected the CSV dataset
 - Checked missing values and data types
@@ -96,7 +96,7 @@ Main steps:
 - Prepared the dataset for Tableau
 - Exported the cleaned CSV
 
-Cleaned dataset:
+### Cleaned Dataset
 
 `dataset/netflix_titles_cleaned.csv`
 
@@ -130,7 +130,8 @@ SQL file:
 Netflix-Content-Analysis-Dashboard/
 │
 ├── dataset/
-│   ├── netflix_titles.csv
+│   ├── netflix_titles.csv/
+│   │   └── netflix_titles.csv
 │   └── netflix_titles_cleaned.csv
 │
 ├── python/
@@ -148,6 +149,9 @@ Netflix-Content-Analysis-Dashboard/
 │   └── Book1.twb
 │
 └── README.md
+```
+
+---
 
 ## 📊 Tableau Worksheets
 
@@ -161,6 +165,8 @@ The final dashboard combines multiple interactive visualizations:
 - 📈 Content Trend
 - 💡 Key Insights
 
+---
+
 ## 📁 Dataset
 
 The project uses the Netflix Movies and TV Shows dataset.
@@ -169,35 +175,40 @@ The project uses the Netflix Movies and TV Shows dataset.
 
 `Title`, `Type`, `Country`, `Date Added`, `Release Year`, `Rating`, `Duration`, `Listed In`, `Description`
 
+---
+
 ## 🚀 How to Explore
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sonikumkum/Netflix-Content-Analysis-Dashboard.git
+```
 
-2. Open the Project
+### 2. Open the Project
 
 Open the project folder in VS Code or your preferred editor.
 
-3. Run the Data Cleaning Script
+### 3. Run the Data Cleaning Script
+
+```bash
 python python/data_cleaning.py
-4. Explore the SQL Analysis
+```
 
-Open sql/netflix_analysis.sql in MySQL Workbench.
+### 4. Explore the SQL Analysis
 
-5. Open the Tableau Workbook
+Open `sql/netflix_analysis.sql` in MySQL Workbench.
 
-Open the .twb file from the tableau/ folder.
+### 5. Open the Tableau Workbook
 
-6. View the Dashboard
+Open the `.twb` file from the `tableau/` folder.
 
-Use the View Interactive Dashboard button above to explore the published Tableau dashboard.
+### 6. View the Dashboard
 
+Click the **View Interactive Dashboard** button above to explore the published Tableau dashboard.
 
-### 💭 What I Learned
+---
 
-```markdown
 ## 💭 What I Learned
 
 - 🐍 Data cleaning using Python and Pandas
@@ -208,7 +219,7 @@ Use the View Interactive Dashboard button above to explore the published Tableau
 - 🐙 GitHub project documentation
 
 ---
-🔮 Future Improvements
+
 ## 🔮 Future Improvements
 
 - 🎭 Improve genre-level analysis by splitting combined genre values
@@ -216,9 +227,22 @@ Use the View Interactive Dashboard button above to explore the published Tableau
 - 📊 Add more advanced KPIs
 - 🔎 Add additional dashboard interactions
 
-👩‍💻 Author
-Kumkum Soni
+---
 
-MCA | Data Analytics & Web Development
+## 👩‍💻 Author
 
-<p align="center"> <a href="https://github.com/sonikumkum"> <img src="https://img.shields.io/badge/GitHub-sonikumkum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> </a> </p>
+### Kumkum Soni
+
+**MCA | Data Analytics & Web Development**
+
+<p align="center">
+  <a href="https://github.com/sonikumkum">
+    <img src="https://img.shields.io/badge/GitHub-sonikumkum-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</p>
+
+---
+
+<p align="center">
+  ⭐ If you find this project useful, consider starring the repository.
+</p>
